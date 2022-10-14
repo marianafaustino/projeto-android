@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: 'bebas neue';
+    src: url(fontes/BebasNeue-Regular.otf);
+}
+
+body{
+    margin: 0px;
+    background-color: #A6EE8C;
+    font-family: 'bebas neue';
+}
+
+header{
+    padding: 10px;
+    background-color: #538043;
+    color: white;
+    box-shadow: -20px -19px 50px 20px rgb(46 87 28);
+    
+}
+
+header > h1{
+    text-align: center;
+}
+
+header > p{
+    text-align: center;
+}
+
+nav{
+    padding-top: 20px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+main{
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main > h1{
+    color: #538043;
+    font-family: 'android';
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > h2{
+    color: #538043;
+    font-family: 'android';
+}
+
+article > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem{
+    text-align: center;
+}
+
+.video{
+    width: 600px;
+}
+
+aside{
+    background-color: aquamarine;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+}
+
+aside > p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+h3{
+    font-weight: lighter;
+    background-color: #A6EE8C;
+    color: white;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #39881c;
+}
+
+.listas{
+    display: flex;
+}
+ul{
+    margin-left: 70px;
+}
+
+@media (min-width: 400px)
+{
+  .video
+   {
+    width: 350px;
+   }
+}
+
+@media (min-width: 750px)
+{
+  .video
+   {
+    width: 500px;
+   }
+}
+
+@media (min-width: 900px)
+{
+  .video
+   {
+    width: 535px;
+   }
+}
+
+@media (min-width: 1050px)
+{
+  .video
+   {
+    width: 1025px;
+   }
+}
+
+.video
+   {
+    height: 300px;
+   }
+
+   aside > h3{
+    border-radius: 10px 10px 0px 0px;
+   }
+
+   footer{
+    background-color: #39881c;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+   }
+
+   .artigo{
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   }
+
+   a:hover{
+    color: #A6EE8C;
+   }
+
+   ul{
+    list-style-image: url(imagens/check.gif);
+    
+   }
+   p{
+    text-indent: 30px;
+   }
