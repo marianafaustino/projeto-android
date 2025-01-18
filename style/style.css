@@ -38,6 +38,7 @@
 
 body{background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    
 }
 
 a.externo::after{
@@ -74,9 +75,7 @@ header > p{
 }
 
 nav{
-    background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
     }
 
     nav a{
@@ -211,4 +210,14 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     color: var(--cor1);
+}
+
+.menu-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+    z-index: 1;
 }
